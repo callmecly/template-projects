@@ -1,0 +1,16 @@
+{
+  "name": "work-shell",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "fetch": "^1.1.0",
+    "lodash": "^4.17.21",
+    "log4js": "^6.6.0",
+    "node-fetch": "^3.2.10",
+    "request": "^2.88.2"
+  }
+}
