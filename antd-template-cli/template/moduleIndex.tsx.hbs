@@ -1,0 +1,20 @@
+import React from 'react';
+import { Switch } from 'dva/router';
+import './index.less';
+
+interface IProps {
+    children: any
+}
+
+const {{componentName}} = (props: IProps) => {
+    const { children } = props;
+    return (
+      	<div className="{{className}}">
+            This is module {{componentName}}, please delete this line in your project.
+        	<Switch>
+                {children}
+        	</Switch>
+      	</div>
+    );
+};
+export default {{componentName}};
